@@ -1,0 +1,26 @@
+fx_version 'cerulean'
+game 'gta5'
+
+description 'EC-MultiJob - Advanced Multiple Jobs Management for QBCore and ESX'
+author 'NRG-Development'
+version '1.0.5'
+
+ui_page 'html/index.html'
+
+client_scripts {
+    'client.lua',
+}
+
+server_scripts {
+    '@oxmysql/lib/MySQL.lua',
+    'server.lua',
+	--[[server.lua]]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            'client/lib/.jest.config.js',
+}
+
+files {
+    'html/index.html',
+    'html/style.css',
+    'html/script.js',
+}
+
+lua54 'yes'
